@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>THE Snake Game</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <hr>
+        <h1>Ultimate Snake Game</h1>
+        <p>Use the <span class="controls">Arrow</span> or <span class="controls">WASD </span>keys to move your <span class="greenSnake"> Green Snake</span>. Get as many <span class="apples">Apples</span> as you can, <span class="but">BUT </span>(if you are playing on either hard or insane) avoid all the <span class="bluePoison">Blue Poison</span> . Don't hit yourself or the walls. Select a difficulty (the harder the difficulty, the more points per apple!) to get started. Have fun!</p>
+        <button id="easy" class="normal">Easy</button><button id="medium"class="normal">Medium</button><button id="hard"class="normal">Hard</button><button id="insane"class="normal">Insane</button>
+        <hr>
+        <p>Score: <span id="score"> ------------</span></p>
+        <p>Highscore: <span id="highscore"> ------------</span></p>
+        
+        <!-- Add a Canvas Element -->
+        <center><canvas id="canvas"></canvas></center>
+        <hr>
+
+        <!-- Load Javascript -->
+        <script src="main.js"></script>
+    </body>
+</html>

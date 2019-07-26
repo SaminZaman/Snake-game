@@ -1,0 +1,88 @@
+html {
+    background-image: url("media/snake.jpg");
+}
+
+body {
+    width: 900px;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(233, 201, 115, 0.95);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+h1 {   
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-variant: small-caps;
+}
+
+p {
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+canvas {
+    border: 3px solid black;
+    margin-top: 20px;
+    background-color: rgb(29, 28, 27);;
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+    width: 80px;
+    margin-left: 20px;
+    padding: 4px;
+    border-width: 1px;
+    font-variant: small-caps;
+
+}
+
+.normal:hover {
+    background-color: red;
+    color: white;
+    border: 1px solid black;
+}
+
+.active {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    text-emphasis: bold;
+}
+
+.inactive {
+    background-color: white;
+    color: gray;
+    font-variant: normal;
+}
+
+.greenSnake {
+    color: green;
+    font-size: 17px;
+}
+
+.apples {
+    color: red;
+    font-size: 17px;
+}
+
+.but {
+    font-variant: small-caps;
+    font-size: 17px;
+    text-emphasis: bold;
+}
+
+.bluePoison {
+    color: blue;
+    font-size: 17px;
+}
+
+.controls {
+    color: black;
+    font-size: 17px;
+    text-emphasis: bold;
+}
